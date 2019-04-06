@@ -4,7 +4,7 @@ using namespace std;  // since cin and cout are both in namespace std, this save
 
 int main() {
   int t, ans1, ans2, arr1[4][4], arr2[4][4], i, j, k, founds, resp;
-    
+
   cin >> t;  // read t. cin knows that t is an int, so it reads it as such.
   for (int tt = 1; tt <= t; ++tt) {
     founds=0;
@@ -15,7 +15,7 @@ int main() {
         cin>>arr1[j][k];
       }
     }
-    cin >> ans2 ;  // answer 2.
+    cin >> ans2 ;  // answer 2
     ans2--;
     for (j=0;j<4;j++){
       for (k=0;k<4;k++){

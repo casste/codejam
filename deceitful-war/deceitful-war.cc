@@ -1,5 +1,4 @@
 #include <iostream>  // includes cin to read from stdin and cout to write to stdout
-#include <set>
 
 using namespace std;  // since cin and cout are both in namespace std, this saves some text
 

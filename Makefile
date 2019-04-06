@@ -1,5 +1,4 @@
-magic-trick:
-	g++ magic-trick/magic-trick.cc -std=c++14 -pthread -O3 -o magic-trick/magic-trick
+solution: solution.cpp
+	g++ -o solution solution.cpp
 
-run-magic-trick:
-	magic-trick/magic-trick < magic-trick/A-small-practice.in
+# (global-set-key (kbd "<f5>") (lambda () (interactive) (shell-command "./solution < ./input.txt")))
